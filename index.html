@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
@@ -17,14 +18,17 @@
                 <p> Bem-vindo(a)</p>
                 <form action="login.php" method="post">
                     <div>
+                        <i class="material-symbols-outlined">person</i>
                         <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email">
-                        <label for="iemail">E-mail</label>
+                        <label for="iemail"></label>
                     </div>
                     <div>
+                        <i class="material-symbols-outlined">key</i>
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="current-password">
-                        <label for="isenha">Senha</label>
+                        <label for="isenha"></label>
                     </div>
                     <button type="submit">Entrar</button>
+                    <a href="esqueci.html">Esqueci a senha</a>
                 </form>
             </div>
         </section>
