@@ -1,0 +1,61 @@
+@charset "UTF-8";
+:root {
+  --cor-roxo-principal: #7F66A3;
+  --cor-roxo-escuro: #4A2E4B;
+  --cor-azul-escuro: #385A8C;
+  --cor-branco-claro: #F9F9F9;
+  --cor-cinza-claro: #B8B8B8;
+}
+/*COLOCANDO RESPONSIVIDADEPARA TELA*/
+/*PARA TABLETS*/
+@media screen  and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to right, #9b91ac, #7F66A3);
+    }
+    #login{
+        width: 90%;
+    }
+    section#login > div#img{ /*fazendo isso, para ficar um do lado do outro*/
+        float: left;
+        width: 40%;
+    }
+    section#login > div#formulario{ /*fazendo isso, para ficar um do lado do outro*/
+        float: right;
+        width: 60%;
+    }
+    
+}
+@media screen  and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: linear-gradient(to right, #a59bb4, #7a60a0);
+    }
+    #login{
+        width: 950px; /*isso para parar de crescer, ñ ficar mt longo*/
+    }
+    section#login > div#img{ /*fazendo isso, para ficar um do lado do outro*/
+        float: left;
+        width: 50%;
+    }
+    section#login > div#formulario{ /*fazendo isso, para ficar um do lado do outro*/
+        float: right;
+        width: 50%;
+    }
+    
+}
+@media screen  and (min-width: 1200px) and (max-width: 1400px){
+    body{
+        background-image: linear-gradient(to right, #9f94af, #8368ac);
+    }
+    #login{
+        width: 950px; /*isso para parar de crescer, ñ ficar mt longo*/
+    }
+    section#login > div#img{ /*fazendo isso, para ficar um do lado do outro*/
+        float: left;
+        width: 50%;
+    }
+    section#login > div#formulario{ /*fazendo isso, para ficar um do lado do outro*/
+        float: right;
+        width: 50%;
+    }
+    
+}
