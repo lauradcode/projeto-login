@@ -12,6 +12,18 @@
     body{
         background-image: linear-gradient(to right, #9b91ac, #7F66A3);
     }
+    div#formulario h1{
+        text-align: center;
+        color: var(--cor-roxo-escuro);
+        margin-bottom: 9px;
+        font-size: 1.6em;
+    }
+    div#formulario p{
+        text-align: center;
+        color: #8f8d8d;
+        margin-bottom: 20px;
+        font-size: 0.9em;
+}
     #login{
         width: 90%;
     }
@@ -29,6 +41,18 @@
     body{
         background-image: linear-gradient(to right, #a59bb4, #7a60a0);
     }
+    div#formulario h1{
+        text-align: center;
+        color: var(--cor-roxo-escuro);
+        margin-bottom: 9px;
+        font-size: 1.7em;
+    }
+    div#formulario p{
+        text-align: center;
+        color: #8f8d8d;
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
     #login{
         width: 950px; /*isso para parar de crescer, ñ ficar mt longo*/
     }
@@ -42,9 +66,21 @@
     }
     
 }
-@media screen  and (min-width: 1200px) and (max-width: 1400px){
+@media screen  and (min-width: 1200px) {
     body{
-        background-image: linear-gradient(to right, #9f94af, #8368ac);
+        background-image: linear-gradient(to right, #a99eb9, #8368ac);
+    }
+    div#formulario h1{
+        text-align: center;
+        color: var(--cor-roxo-escuro);
+        margin-bottom: 9px;
+        font-size: 1.7em;
+    }
+    div#formulario p{
+        text-align: center;
+        color: #8f8d8d;
+        margin-bottom: 20px;
+        font-size: 1em;
     }
     #login{
         width: 950px; /*isso para parar de crescer, ñ ficar mt longo*/
