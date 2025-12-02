@@ -32,7 +32,7 @@ main{
     width: 250px;
     height: 500px;
     border-radius: 15px;
-    box-shadow: 1zpx 1px 10px rgba(49, 49, 49, 0.089);
+    box-shadow: 1px 1px 12px rgba(42, 42, 42, 0.249);
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease-in-out;
 
@@ -44,7 +44,7 @@ section#login > div#img{
     background: black url(../img/fundo.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
-outline: none;
+    outline: none;
     border: none;
 }
 section#login > div#formulario{
